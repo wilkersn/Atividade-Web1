@@ -1,0 +1,15 @@
+<script>
+        cont = 0
+        numValid = 0
+        while (cont < 10) {
+            const numero = Number(prompt("Número " + cont + ":"))
+            cont++
+            if (numero >= 10 && numero <= 20) {
+                numValid++
+            }
+        }
+
+        alert(`Quantidade de números que atendem aos requisitos: ${numValid}`)
+
+
+    </script>
